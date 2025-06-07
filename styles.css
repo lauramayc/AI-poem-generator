@@ -1,3 +1,51 @@
+body {
+  background-color: antiquewhite;
+}
+.fredericka-the-great-regular {
+  font-family: "Fredericka the Great", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 h1 {
-  color: red;
+  text-align: center;
+  color: chocolate;
+  font-family: "Fredericka the Great", serif;
+  font-weight: 450;
+  font-size: 60px;
+}
+h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 14px;
+}
+
+button {
+  background-color: chocolate;
+  color: white;
+  border-radius: 10px;
+}
+
+#box {
+  background-color: whitesmoke;
+  margin: 40px auto;
+  max-width: 600px;
+  padding: 5%;
+  border-radius: 10px;
+}
+#topic {
+  margin-bottom: 5px;
+  border-radius: 7px;
+}
+
+footer {
+  text-type: italic;
+  text-align: center;
+  text-align: center;
+
+  font-family: "Fredericka the Great", serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+a {
+  color: chocolate;
 }
