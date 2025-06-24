@@ -21,12 +21,18 @@ h2 {
 .submit-button {
   background-color: chocolate;
   color: white;
-  border-radius: 10px;
+  border-radius: 20px;
+  padding: 4px 10px;
+}
+
+#user-input {
+  border-radius: 20px;
+  padding: 4px 10px;
 }
 
 #box {
   background-color: whitesmoke;
-  margin: 20px auto;
+  margin: 10px auto;
   max-width: 400px;
   padding: 2%;
   border-radius: 10px;
@@ -34,18 +40,13 @@ h2 {
 
 #poem-generator-form {
   display: block;
-  margin: 40px auto;
+  margin: 10px auto;
   max-width: 400px;
   text-align: center;
 }
 
-#topic {
-  margin-bottom: 5px;
-  border-radius: 7px;
-}
-
 #poem {
-  padding-top: 20px;
+  padding-top: 10px;
   text-align: center;
 }
 
@@ -61,4 +62,31 @@ footer {
 
 a {
   color: chocolate;
+}
+
+.loader {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: block;
+  margin:15px auto;
+  position: relative;
+  color: chocolate;
+  box-sizing: border-box;
+  animation: animloader 1s linear infinite alternate;
+}
+
+@keyframes animloader {
+  0% {
+    box-shadow: -38px -6px, -14px 6px,  14px -6px;
+  }
+  33% {
+    box-shadow: -38px 6px, -14px -6px,  14px 6px;
+  }
+  66% {
+    box-shadow: -38px -6px, -14px 6px, 14px -6px;
+  }
+  100% {
+    box-shadow: -38px 6px, -14px -6px, 14px 6px;
+  }
 }
