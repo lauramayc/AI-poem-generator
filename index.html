@@ -3,33 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="styles.css" />
 
-    <script src="script.js"></script>
     <title>.𖥔 ݁ ˖๋ ࣭ ⭑Poem maker.𖥔 ݁ ˖๋ ࣭ ⭑</title>
   </head>
   <body>
-     <h1>Poem generator </h1>
-    
-     <div id="box">
-    <form>
-      <label for="topic">poem topic:</label><br />
-      <input type="text" id="topic" /><br />
-      <button id="haiku">make haiku</button>
-      <button id="lymeric">make lymeric</button>
-      <button id="ballad">make a ballad</button>
-    </form>
-</p>
-<h2>Type in a topic and search and wait <br> 
-A new poem will initiate <br> 
-</h2>
-</div>
-    <footer>Hosted a <a href="https://theaijokegenerator.netlify.app/">Netlify</a> Open sourced at
-        <a href ="https://github.com/lauramayc/AI-poem-generator"> github</a> programmed by
-         <a href="https://www.linkedin.com/in/laura-campbell-878805b5/"> LauraMay</a> </footer>
-    </body>
+    <h1>Poem generator</h1>
+
+    <div id="box">
+      <form id="poem-generator-form">
+        <input
+          type="text"
+          placeholder="Enter a Poem topic"
+          autofocus
+          required
+          autocomplete="off"
+          class="instructions"
+        />
+        <input type="submit" class="submit-button" />
+      </form>
+      <div class="poem" id="poem">text</div>
+    </div>
+    <footer>
+      Hosted a
+      <a href="https://theaijokegenerator.netlify.app/">Netlify</a> Open sourced
+      at
+      <a href="https://github.com/lauramayc/AI-poem-generator"> github</a>
+      programmed by
+      <a href="https://www.linkedin.com/in/laura-campbell-878805b5/">
+        LauraMay</a
+      >
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
